@@ -1,0 +1,60 @@
+{
+  "author": "Marat Aksanov",
+  "author_url": "https://aksanov.digital/about",
+  "captured_on": "2026-10-06",
+  "catalog_url": "https://aksanov.digital/tools",
+  "sources": [
+    {
+      "slug": "ecommerce",
+      "original_url": "https://aksanov.digital/tools/unit-economics/ecommerce",
+      "original_fragment_sha256": "886d27e283bb6bc5c9cc8a12b9ac949c622fc3dc7c5adb706c49d207318f39a2",
+      "entrypoint": "ecommerce/index.html",
+      "script_sources": [
+        "https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js",
+        "templates/ecommerce.js",
+        "src/app.js"
+      ]
+    },
+    {
+      "slug": "saas",
+      "original_url": "https://aksanov.digital/tools/unit-economics/saas",
+      "original_fragment_sha256": "a8d122086796c6412cf23b6837afaafa438abefe5675afde5eebea391468a56b",
+      "entrypoint": "saas/index.html",
+      "script_sources": [
+        "https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js",
+        "templates/saas.js",
+        "src/app.js"
+      ]
+    },
+    {
+      "slug": "marketplace",
+      "original_url": "https://aksanov.digital/tools/unit-economics/marketplace",
+      "original_fragment_sha256": "cc74ecf271166bf11b95013940e5a3de66c7af0899baeff1b2bfb990f4b54319",
+      "entrypoint": "marketplace/index.html",
+      "script_sources": [
+        "https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js",
+        "templates/marketplace.js",
+        "src/app.js"
+      ]
+    },
+    {
+      "slug": "services",
+      "original_url": "https://aksanov.digital/tools/unit-economics/services",
+      "original_fragment_sha256": "cbbac88a6c7591e9db628c03163364e6d330124e0723c89112380f665b2b781e",
+      "entrypoint": "services/index.html",
+      "script_sources": [
+        "https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js",
+        "templates/services.js",
+        "src/app.js"
+      ]
+    }
+  ],
+  "modifications": [
+    "Extracted the tool-specific T123 fragment only",
+    "Separated HTML, CSS and JavaScript without changing formulas",
+    "Excluded page JSON-LD, Tilda runtime and site-wide analytics",
+    "Removed custom font-face rules; original fallback stacks remain",
+    "Converted site-relative content links to original absolute URLs",
+    "Added authorship, citation and licensing files"
+  ]
+}

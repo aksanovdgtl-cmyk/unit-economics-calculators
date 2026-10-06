@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite Marat Aksanov and the original online tool."
+type: software
+title: "Unit Economics Calculators"
+authors:
+  - family-names: "Aksanov"
+    given-names: "Marat"
+    website: "https://aksanov.digital"
+url: "https://aksanov.digital/tools"
+repository-code: "https://github.com/aksanovdgtl-cmyk/unit-economics-calculators"
+license: MIT
+abstract: "Four client-side unit economics models for ecommerce, SaaS, marketplaces and professional services. Calculate margins, acquisition limits and break-even metrics; export editable Excel workbooks."
+keywords:
+  - "unit-economics"
+  - "ecommerce"
+  - "saas"
+  - "marketplace"
+  - "marketing"
+  - "javascript"
+  - "excel"
